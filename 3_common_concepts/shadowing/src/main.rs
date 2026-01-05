@@ -1,4 +1,7 @@
 fn main() {
+    let spaces = "   "; // Here the variahle is of type &str
+    let spaces = spaces.len(); // Here we shadow it to change the data type (usize)
+
     let x = 5;
 
     let x = x + 1; // Here we shadow the previous binding of x
